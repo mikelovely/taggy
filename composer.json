@@ -1,0 +1,31 @@
+{
+    "name": "mikelovely/taggy",
+    "description": "An Eloquent tagging package for Laravel",
+    "authors": [
+        {
+            "name": "Mike Lovely",
+            "email": "mike-lovely@hotmail.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MikeLovely\\Taggy\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/database": ">= 5.0",
+        "illuminate/support": ">= 5.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "~3.0",
+        "phpunit/phpunit": "~5.0"
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php",
+            "tests/stubs/LessonStub.php",
+            "tests/stubs/TagStub.php"
+        ]
+    }
+}
